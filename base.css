@@ -382,7 +382,7 @@ a i {
 }
 
 .btn-success.btn-outline {
-    color: #b85c5c;
+    color: #5cb85c;
 }
 
 .btn-info.btn-outline {
@@ -394,18 +394,12 @@ a i {
 }
 
 .btn-danger.btn-outline {
-    color: #d9534f;
+    color: #d82a24;
 }
 
-.btn-default {
-    background-color: black;
-    border-color: black;
+btn btn-default {
+    color: #428bca;
 }
-
-.help-block{
-    color: black; 
-}
-
 
 .btn-default.btn-outline:hover,
 .btn-primary.btn-outline:hover,
@@ -413,7 +407,7 @@ a i {
 .btn-info.btn-outline:hover,
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
-    color: rgb(228, 22, 22);
+    color: #fff;
 }
 
 .btn-list > .btn {
@@ -605,18 +599,18 @@ a i {
     padding-bottom: 0px;
 }
 
-#accordion-sidebar ul.list-unstyled {
-    margin-bottom: 0px;
+#accordion-sidebar .collapsed .accordion-indicator {
+   transform: rotate(90deg);
 }
 
-#accordion-sidebar .panel-body li {
-    padding: 9px;
+#accordion-sidebar ul.list-unstyled {
+    margin-bottom: 0px;
 }
 
 #accordion-sidebar .panel-body a {
     color: white;
     text-decoration: none;
-    padding: 0px;
+    padding: 9px;
 }
 
 .navbar-fixed-top {
